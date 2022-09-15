@@ -1,0 +1,15 @@
+svg{
+    display: block;
+}
+circle, polygon{
+    fill:navy;
+}
+circle:hover{
+    fill: goldenrod;
+}
+polygon:hover{
+    fill:rgb(199, 199, 97);
+}
+circle:active, polygon:active{
+    opacity:0.6;
+}
